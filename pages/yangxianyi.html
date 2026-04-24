@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>翼谷低空体验基地</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "SimSun", "宋体", serif !important;
+        }
+
+        body {
+        width: 100%;
+        overflow-x: hidden; /* 禁止横向滚动 */
+        font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /*header style */
+        header{
+            display: flex;
+            align-items: center;
+            padding: 2vw;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header-logo{
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img{
+            height: 8vw;
+            margin-right: 2vw;
+        }
+
+        .header-logo span{
+            font-size: 8vw;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /*main style*/
+        main{
+            max-width: 95vw;
+            margin: 2vw auto;
+            padding: 0 2vw;
+        }
+
+        h1{
+            max-width: 90vw;
+            font-size: 6vw;
+            margin-bottom: 5vw;
+            margin-top: 5vw;
+            text-align: center;
+        }
+
+        h2,h3,h4,h5{
+            max-width: 90vw;
+            margin-bottom: 2vw;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 6vw;
+        }
+
+        h3{
+            font-size: 5vw;
+        }
+    
+        .audio-player{
+            width: 80vw;
+            height: 10vw;
+            margin: 0 auto;
+            border-radius: 2vw;
+            display: block;
+        }
+
+        /* 段落统一设置 */
+        p {
+            text-align: justify;      /* 两端对齐 */
+            text-indent: 2em;         /* 段首缩进 2 字符 */
+            line-height: 1.7;         /* 行高，更好看 */
+            font-size: 5vw;          /* 文字大小 */
+            margin-bottom: 1em;       /* 段落间距 */
+            max-width: 80vw;
+            margin:0 auto
+        }
+
+        img{
+            display: block;
+            max-width: 50vw;
+            margin:0 auto;
+            margin-bottom: 2vw;
+        }
+        
+        .img_1{
+            max-width: 50vw;
+        }
+
+        .img_2{
+            max-width: 70vw;
+        }
+
+        .caption{
+            font-size: 4vw;
+            color: #666;
+            margin: 2vw auto;
+            line-height: 1.7;
+            text-indent: 0 !important; /* 取消首行缩进 */
+            text-align: center
+        }
+
+        /*footer style*/
+        footer{
+            background-color: #f8f9fa;
+            color:black;
+            padding: 2vw 0;
+            text-align: center;
+        }
+
+        .footer-logo{
+            margin: 2vw auto;
+        }
+
+        .footer-logo img{
+            height: 10vw;
+            margin-right: 5vw;
+            display: block;
+            margin: 2vw auto;
+        }
+
+        .footer-logo span{
+            font-size: 6vw;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+        <img src="..\public\翼谷logo.png" alt="翼谷logo"/>
+        <span>翼谷低空体验基地</span>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>香山英杰 · 中山航空英才谱</h1>
+        <div>
+            <img src="..\public\杨仙逸.png" alt="杨仙逸肖像" class="img_1"/>
+        </div>
+        <h2>杨仙逸</h2>
+        <h3>（1891—1923）</h3>
+        <div style="margin-bottom: 2vw;color:  #ddd;">
+            <audio class="audio-player" src="..\public\yangxianyi.mp3" controls controlslist="nodownload"></audio>
+        </div>
+        <div>
+            <p>
+                字学华，号铁庵，祖籍环城北台村。中国空军先驱者。1910年加入中国同盟会。
+            </p>
+            <p>
+                先后入读夏威夷大学及加利福尼亚州哈里大学机械专科。毕业后，为响应孙中山“航空救国”号召，再入读纽约寇狄斯航空学校，精研飞机制造与驾驶技术，获万国飞行会水陆飞行执照。
+            </p>
+
+            <img src="..\public\孙中山和宋庆龄在乐士文1号前合影.png" alt="孙中山和宋庆龄在乐士文1号前合影" class="img_2" />
+            <p class="caption">
+                孙中山和宋庆龄在乐士文1号前合影
+            </p>
+
+            <p>
+                少怀“航空救国”大志，与华侨飞行家及工商业者在旧金山创办图强飞机有限公司，培训中国飞行员及航空工程技术人员。1917年由其发起组成飞机队，驾机回到广州参加护法战争，被孙中山任命为飞机队队长。1919年与张惠长等应孙中山召唤回国，组建援闽粤军飞机队，是中国第一支革命空军飞机队，任总指挥。1922年重返美洲向华侨募捐，购买飞机12架，包括其父杨暑昆捐献的4架。同年12月由孙中山委任为大元帅府航空局局长，兼任广东飞机制造厂厂长。
+            </p>
+
+            <img src="..\public\宋庆龄坐上乐士文1号.png" alt="宋庆龄坐上乐士文1号" class="img_2"/>
+            <p class="caption">
+                宋庆龄坐上乐士文1号
+            </p>
+
+            <p>
+                1923年6月，在广州装配成中国第一架飞机，以“乐士文”（宋庆龄的英文名）命名，其亲自驾机试飞，孙中山亲临观看，宋庆龄登机同飞。
+            </p>
+
+            <img src="..\public\杨仙逸-孙中山手书志在冲天.png" alt="孙中山手书志在冲天" class="img_2"/>
+            <p class="caption">
+                孙中山手书志在冲天
+            </p>
+
+            <p>
+                孙中山誉其为“革命航空之父”，亲书“志在冲天”的匾额，以表彰其和飞机队的卓越功勋。
+            </p>
+            <p>
+                同年9月20日其前往博罗之梅湖白沙前线，在水上飞机上研究改装水雷，因意外爆炸，当即殉难，时年32岁。
+            </p>
+            <p>
+                (来源：《中山市人物志》)
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <span>翼谷低空体验基地</span>
+            <img src="..\public\翼谷logo.png" alt="杨仙逸肖像"/>
+        </div>
+    </footer>
+</body>
