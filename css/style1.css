@@ -12,6 +12,12 @@ body {
     system-ui,
     -apple-system,
     sans-serif;
+  opacity: 0; /*加载完成前不显示*/
+  transition: opacity 0.2s ease;
+}
+
+body.ready {
+    opacity: 1;
 }
 
 a {
