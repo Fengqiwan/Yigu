@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>翼谷低空体验基地</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "SimSun", "宋体", serif !important;
+        }
+
+        body {
+        width: 100%;
+        overflow-x: hidden; /* 禁止横向滚动 */
+        font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /*header style */
+        header{
+            display: flex;
+            align-items: center;
+            padding: 2vw;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header-logo{
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img{
+            height: 8vw;
+            margin-right: 2vw;
+        }
+
+        .header-logo span{
+            font-size: 8vw;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /*main style*/
+        main{
+            max-width: 95vw;
+            margin: 2vw auto;
+            padding: 0 2vw;
+        }
+
+        h1{
+            max-width: 90vw;
+            font-size: 6vw;
+            margin-bottom: 5vw;
+            margin-top: 5vw;
+            text-align: center;
+        }
+
+        h2,h3,h4,h5{
+            max-width: 90vw;
+            margin-bottom: 2vw;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 6vw;
+        }
+
+        h3{
+            font-size: 5vw;
+        }
+    
+        .audio-player{
+            width: 80vw;
+            height: 10vw;
+            margin: 0 auto;
+            border-radius: 2vw;
+            display: block;
+        }
+
+        /* 段落统一设置 */
+        p {
+            text-align: justify;      /* 两端对齐 */
+            text-indent: 2em;         /* 段首缩进 2 字符 */
+            line-height: 1.7;         /* 行高，更好看 */
+            font-size: 5vw;          /* 文字大小 */
+            margin-bottom: 1em;       /* 段落间距 */
+            max-width: 80vw;
+            margin:0 auto
+        }
+
+        img{
+            display: block;
+            max-width: 50vw;
+            margin:0 auto;
+            margin-bottom: 2vw;
+        }
+        
+        /*竖版图片*/
+        .img_1{
+            max-width: 50vw;
+        }
+
+        /*横版图片*/
+        .img_2{
+            max-width: 70vw;
+        }
+
+        .caption{
+            font-size: 4vw;
+            color: #666;
+            margin: 2vw auto;
+            line-height: 1.7;
+            text-indent: 0 !important; /* 取消首行缩进 */
+            text-align: center
+        }
+
+        /*footer style*/
+        footer{
+            background-color: #f8f9fa;
+            color:black;
+            padding: 2vw 0;
+            text-align: center;
+        }
+
+        .footer-logo{
+            margin: 2vw auto;
+        }
+
+        .footer-logo img{
+            height: 10vw;
+            margin-right: 5vw;
+            display: block;
+            margin: 2vw auto;
+        }
+
+        .footer-logo span{
+            font-size: 6vw;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+        <img src="..\public\翼谷logo.png" alt="翼谷logo"/>
+        <span>翼谷低空体验基地</span>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>香山英杰 · 中山航空英才谱</h1>
+        <div>
+            <img src="..\public\张惠长.png" alt="张惠长" class="img_1"/>
+        </div>
+        <h2>张惠长</h2>
+        <h3>（1889—1980）</h3>
+        <div style="margin-bottom: 2vw;color:  #ddd;">
+            <audio class="audio-player" src="..\public\zhanghuichang.mp3" controls controlslist="nodownload"></audio>
+        </div>
+        <div>
+            <p>
+                字锦威，张家边大环村人。幼年随父侨居美国。
+            </p>
+            <p>
+                1914年，孙中山派林森赴美国招募华侨子弟学习航空，其获选，到美国纽约寇蒂斯航空学校入学，学习飞行技术。1917年毕业回国抵广州，任大元帅府侍从副官。次年任航空处副处长。1922年任航空局副局长、代局长、北伐军飞机队队长。1927年任广东航空学校校长，共训练学员199人。
+            </p>
+
+            <img src="..\public\上海各界在虹桥机场欢迎广州号机组人员（中间穿军装的三人）杨官宇（左一）张惠长（左二）黄毓沛（右一）.png" alt="上海各界在虹桥机场欢迎广州号机组人员（中间穿军装的三人）杨官宇（左一）张惠长（左二）黄毓沛（右一）" class="img_2"/>
+            <p class="caption">
+                上海各界在虹桥机场欢迎广州号机组人员（中间穿军装的三人）<br>杨官宇（左一）张惠长（左二）黄毓沛（右一）
+            </p>
+
+            <p>
+                1928年升任航空处处长，并于年底以“航空救国”名义，驾“广州号”飞机，环飞全国。经汉口、南京、济南、北平（今北京）抵达沈阳，为中国飞行员首次长途飞行。
+            </p>
+            <p>
+                1929年任军政部航空署署长兼中国航空公司副理事长、中央航空学校校长。1931年12月随孙科到广州，任西南空军总司令。其间曾发出号召空军人员誓不参加内战的通电，得广东空军人员签名响应。1932年派丁纪徐率机北上，赴上海支援淞沪抗日，接着又派杨官宇、刘植炎率领广东100多名空军人员到福建，协助组建十九路军飞机队。
+            </p>
+
+            <img src="..\public\广州号飞机.png" alt="广州号飞机" class="img_2"/>
+            <p class="caption">
+                广州号飞机
+            </p>
+
+            <p>
+                1937年任中山县县长。抗日战争爆发后，接受中共有关联合抗日的主张，组织建立抗日救亡群众团体“抗先队”，任总队长（中共党员孙康任副总队长），并领导中山守备队，在横门、叠石等地抗击入侵日军。1945年7月抗战胜利前夕，复任中山县长。
+            </p>
+
+            <p>
+                1949年后往台湾。1980年7月17日在台北病故。
+            </p>
+
+            <p>
+                （来源：《中山市人物志》，有删改）
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <span>翼谷低空体验基地</span>
+            <img src="..\public\翼谷logo.png" alt="翼谷logo"/>
+        </div>
+    </footer>
+</body>
