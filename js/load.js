@@ -4,7 +4,6 @@ function loadHTML(elementId, filePath) {
     .then(data => document.getElementById(elementId).innerHTML = data);
 }
 
-loadHTML('head', '../head.html');
 loadHTML('header', '../header.html');
 loadHTML('footer', '../footer.html');
 
